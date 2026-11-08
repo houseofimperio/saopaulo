@@ -351,9 +351,9 @@ body {
     grid-template-columns: repeat(3, minmax(120px, 1fr));
   }
 
-  .family-grid .cell:nth-child(22) {
+/*  .family-grid .cell:nth-child(22) {
     grid-column: 2;
-  }
+  } */
 
   .footer-line {
     flex-wrap: wrap;
