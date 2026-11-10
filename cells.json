@@ -1,0 +1,27 @@
+{
+    "cells": [
+        { "name": "bieel" , "number": "I", "instagram": "bieelmoraes" },
+        { "name": "alicia", "image": "alicia.jpg", "number": "II" , "instagram": "victoricure" },
+        { "name": "lotus", "image": "lotus.JPEG", "number": "III" , "instagram": "lotuss.knt" },
+        { "name": "kai", "image": "kai.PNG", "number": "IV" , "instagram": "kai_imperio" },
+        { "name": "talan", "image": "talan.jpg", "number": "V" , "instagram": "0_taldorocha" },
+        { "name": "raolin", "image": "raolin.jpg", "number": "VI" , "instagram": "raulicaro" },
+        { "name": "mabella", "image": "mabella.jpg", "number": "VII" , "instagram": "_mabella9" },
+        { "name": "viper", "image": "viper.jpeg", "number": "VIII" , "instagram": "hissviper" },
+        { "name": "lalah", "image": "lalah.jpeg", "number": "IX" , "instagram": "miiss.lalah" },
+        { "name": "maggie", "number": "X" , "instagram": "miss.maggie.imperio" },
+        { "name": "naclara", "image": "naclara.jpg", "number": "XI" , "instagram": "naclara_santos" },
+        { "name": "luz", "image": "luz.jpg", "number": "XII" , "instagram": "luzmoralesz_" },
+        { "name": "lua", "image": "lua.jpg", "number": "XIII" , "instagram": "lua.imperio" },
+        { "name": "zari", "image": "zari.jpeg", "number": "XIV" , "instagram": "badzari" },
+        { "name": "ressu", "image": "ressu.jpg", "number": "XV" , "instagram": "ressu.cc" },
+        { "name": "linda", "image": "linda.jpeg", "number": "XVI" , "instagram": "bigs.linda" },
+        { "name": "casanova", "number": "XVII" , "instagram": "gabrielvcasanova" },
+        { "name": "keykey", "image": "keykey.jpeg", "number": "XVIII" , "instagram": "kayke_cezar" },
+        { "name": "beladonna", "image": "beladonna.png", "number": "XIX", "instagram": "isa.bbatista" },
+        { "name": "venus", "number": "XX" , "instagram": "venussasab0y" },
+        { "name": "capri", "image": "capri.jpg", "number": "XXI" , "instagram": "caprisantiago" },
+        { "name": "dracarys", "image": "dracarys.jpeg", "number": "XXII" , "instagram": "dracarys____________" },
+        { "name": "stella", "image": "stella.jpeg", "number": "XXIII" , "instagram": "stelladluca" }
+    ]
+}

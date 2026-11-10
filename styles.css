@@ -227,8 +227,28 @@ body {
   border: 2px solid var(--red);
 }
 
+.image-modal-instagram {
+  display: block;
+  width: fit-content;
+  margin-top: 12px;
+  color: var(--red);
+  transition: color 0.2s ease;
+}
+
+.image-modal-instagram:hover,
+.image-modal-instagram:focus-visible {
+  color: var(--red);
+}
+
+.image-modal-instagram svg {
+  display: block;
+  width: 25px;
+  height: 25px;
+}
+
 .image-modal-image[hidden],
-.image-modal-status[hidden] {
+.image-modal-status[hidden],
+.image-modal-instagram[hidden] {
   display: none;
 }
 
