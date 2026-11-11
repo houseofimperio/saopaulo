@@ -20,17 +20,17 @@
         </div>
 
         <div class="title-band" aria-label="statement mother blue legendary father muka">
-          <div class="title-row" data-image="blue.jpeg" data-title="blue" style="background-color: white;">
+          <div class="title-row" data-image="blue.jpeg" data-title="blue" data-instagram="blue_revlon" style="background-color: white;">
             <span class="word statement">STATEMENT</span>
             <span class="word mother">MOTHER</span>
             <span class="word blue" style="color: var(--red);">BLUE</span>
           </div>
-          <div class="title-row" data-image="muka.PNG" data-title="muka" style="background-color: black;">
+          <div class="title-row" data-image="muka.PNG" data-title="muka" data-instagram="mukamuzi" style="background-color: black;">
             <span class="word legendary" style="color: white;">LEGENDARY</span>
             <span class="word father" style="color: white;">FATHER</span>
             <span class="word muka" style="color: var(--red);">MUKA</span>
           </div>
-          <div class="title-row" data-image="onix.PNG" data-title="onix" style="background-color: var(--red);">
+          <div class="title-row" data-image="onix.PNG" data-title="onix" data-instagram="onixk_" style="background-color: var(--red);">
             <span class="word legendary" style="color: black;">LEGENDARY</span>
             <span class="word godmother" style="color: black;">GODMOTHER</span>
             <span class="word onyx" style="color: white;">ONIX</span>
@@ -41,11 +41,11 @@
             <span class="word biel" style="color: var(--red);">BIEL</span>
           </div>
           <div class="title-row" style="background-color: black;">
-            <div class="title-pair" data-image="dan.jpg" data-title="dan">
+            <div class="title-pair" data-image="dan.jpg" data-title="dan" data-instagram="danielfaier">
               <span class="word prince" style="color: white;">PRINCE</span>
               <span class="word dan" style="color: white;">DAN</span>
             </div>
-            <div class="title-pair" data-image="lupita.jpeg" data-title="lupita">
+            <div class="title-pair" data-image="lupita.jpeg" data-title="lupita" data-instagram="lupirevlon">
               <span class="word princess" style="color: var(--red);">PRINCESS</span>
               <span class="word lupita" style="color: var(--red);">LUPITA</span>
             </div>
@@ -165,7 +165,9 @@
         modalImage.hidden = true;
         modalStatus.textContent = 'Carregando imagem...';
         modalStatus.hidden = false;
-        const instagram = element.dataset.instagram?.trim().replace(/^@/, '');
+        const instagram = (element.dataset.instagram || titlePair?.dataset.instagram || titleRow?.dataset.instagram)
+          ?.trim()
+          .replace(/^@/, '');
         modalInstagram.hidden = !instagram;
         if (instagram) {
           modalInstagram.href = `https://www.instagram.com/${encodeURIComponent(instagram)}/`;
